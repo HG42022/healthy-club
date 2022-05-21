@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: open sans;
+    color: #3a3a3a;
+    font-size: 15pt;
 }
 
 body,
@@ -12,8 +15,11 @@ header {
     padding: 0;
 }
 
+#home{
+    text-decoration: none;
+}
 h1 {
-    color: black;
+    color:#958270;
     font-size: 400%;
     text-transform: uppercase;
     font-style: normal;
@@ -23,7 +29,6 @@ h1 {
 
 nav {
     position: relative;
-    left: 7%;
     text-align: center;
 
 }
@@ -33,11 +38,12 @@ a {
     text-decoration: none;
     font-size: 200%;
     font-weight: bold;
+    color:#3a3a3a;
+    letter-spacing: 2px;
 
 }
 
 /* style our promise and hero image*/
-/* style promise box*/
 
 .frame-promisebox {
     width: 20%;
@@ -51,19 +57,36 @@ a {
     position: relative;
     top: 300px;
     right: 600px;
+    font-weight: bolder;
+    font-size: 200%;
+    color:#000000;
+}
+
+h2{
+    text-align: center;
 }
 
 li {
     list-style-type: none;
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
+    color:#3a3a3a;
+    line-height: 200%;
+    font-family: Lato;
+    font-style: italic;
 }
 
+.categories1{
+    float:left;
+}
+.categories2{
+    float:right;
+}
 /* style the container of hero image*/
 
 .container-hero {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     z-index: -1;
     top: 0;
