@@ -1,6 +1,10 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
 }
 
 header {
@@ -55,16 +59,17 @@ li {
     font-size: 120%;
 }
 
-/* style the frame of hero image*/
+/* style the container of hero image*/
 
-.frame-figure {
-    margin: 0;
-    display: inline-block;
-
-}
-
-/* style the hero image*/
-figure {
+.container-hero {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0; 
+    background-image: url("../images/hero.jpg.jpeg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
