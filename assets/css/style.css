@@ -1,5 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 
 h1 {
     color: black;
-    font-size: x-large;
+    font-size: 400%;
     text-transform: uppercase;
     font-style: normal;
     float: left;
@@ -18,12 +19,52 @@ h1 {
 
 nav {
     position: relative;
-    left: 5%;
+    left: 7%;
     text-align: center;
 
 }
 
 a {
-    margin-right: 20px;
+    margin-right: 2%;
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+
 }
 
+/* style our promise and hero image*/
+/* style promise box*/
+
+.frame-promisebox {
+    width: 20%;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+}
+
+.promise-box {
+    margin: 2%;
+    position: relative;
+    top: 300px;
+    right: 600px;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 120%;
+}
+
+/* style the frame of hero image*/
+
+.frame-figure {
+    margin: 0;
+    display: inline-block;
+
+}
+
+/* style the hero image*/
+figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
