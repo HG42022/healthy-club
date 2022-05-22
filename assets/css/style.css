@@ -109,8 +109,8 @@ li {
     text-align: center;
 }
 
-/* style the text boxes+ text containers for healthy*/
-/* working now here to fix the positionning of containers*/
+/* container-healthy centerd horizonatlly and vertically*/
+
 .container-healthy{
     border: 1px solid black;
     position: absolute;
@@ -135,18 +135,24 @@ li {
 .container-text{
     border: 1px solid rgb(92, 7, 7);
     position: absolute;
-    width: 40%;
-    left: 50%;
-    margin-left: -20%;
+    left: 0;
+    top: 100px;
+    right: 0;
+    bottom: 100px;
+    margin: 20%;
         }
 
 
 .text-healthy{
-    background-color: blue;
+    
     display: inline-block;
-    height: 80px;
-    width: 80px;
+    height: 160px;
+    width: 160px;
 }
 
-
+.categ-healthy{
+    color:#000000;
+    font-style: oblique;
+        
+}
 
