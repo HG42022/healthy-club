@@ -103,21 +103,40 @@ li {
     background-size: cover;
 }
 
-/* style the round boxes+ containers for be healthy*/
+/* style boxes+ containers for healthy*/
+
+#healthy{
+    text-align: center;
+}
+
+/* style the text boxes+ text containers for healthy*/
+/* working now here to fix the positionning of containers*/
+.container-healthy{
+    border: 1px solid black;
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    margin-left: -20%;
+
+    }
 .box-healthy{
     background-color: #7a1c1c;
     display: inline-block;
-    height: 160px;
-    width: 160px;
+    height: 80px;
+    width: 80px;
 }
 
-.container-healthy{
-border: 1px solid black;
-padding: 10px;
-text-align: center;
-}
+/* style the text boxes+ text containers for healthy*/
+/* working now here to fix the positionning of containers*/
+.container-text{
+    border: 1px solid rgb(92, 7, 7);
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    margin-left: -20%;
+        }
 
-/* style the text boxes+ text containers for be healthy*/
+
 .text-healthy{
     background-color: blue;
     display: inline-block;
@@ -125,8 +144,5 @@ text-align: center;
     width: 80px;
 }
 
-.container-text{
-    border: 1px solid rgb(92, 7, 7);
-    padding: 10px;
-    text-align: center;
-    }
+
+
