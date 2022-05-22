@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
 body {
     font-family: open sans;
     color: #3a3a3a;
@@ -8,6 +9,10 @@ body {
 body,
 html {
     height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 header {
@@ -15,11 +20,12 @@ header {
     padding: 0;
 }
 
-#home{
+#home {
     text-decoration: none;
 }
+
 h1 {
-    color:#958270;
+    color: #958270;
     font-size: 400%;
     text-transform: uppercase;
     font-style: normal;
@@ -28,9 +34,7 @@ h1 {
 }
 
 nav {
-    position: relative;
     text-align: center;
-
 }
 
 a {
@@ -38,12 +42,12 @@ a {
     text-decoration: none;
     font-size: 200%;
     font-weight: bold;
-    color:#3a3a3a;
+    color: #3a3a3a;
     letter-spacing: 2px;
 
 }
 
-/* style our promise and hero image*/
+/* style our promise*/
 
 .frame-promisebox {
     width: 20%;
@@ -59,10 +63,10 @@ a {
     right: 600px;
     font-weight: bolder;
     font-size: 200%;
-    color:#000000;
+    color: #000000;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
@@ -70,18 +74,20 @@ li {
     list-style-type: none;
     text-align: center;
     font-size: 100%;
-    color:#3a3a3a;
+    color: #3a3a3a;
     line-height: 200%;
     font-family: Lato;
     font-style: italic;
 }
 
-.categories1{
-    float:left;
+.categories1 {
+    float: left;
 }
-.categories2{
-    float:right;
+
+.categories2 {
+    float: right;
 }
+
 /* style the container of hero image*/
 
 .container-hero {
@@ -90,9 +96,37 @@ li {
     position: absolute;
     z-index: -1;
     top: 0;
-    left: 0; 
+    left: 0;
     background-image: url("../images/hero.jpg.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* style the round boxes+ containers for be healthy*/
+.box-healthy{
+    background-color: #7a1c1c;
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+}
+
+.container-healthy{
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+
+/* style the text boxes+ text containers for be healthy*/
+.text-healthy{
+    background-color: blue;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+}
+
+.container-text{
+    border: 1px solid rgb(92, 7, 7);
+    padding: 10px;
+    text-align: center;
+    }
