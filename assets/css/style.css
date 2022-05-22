@@ -114,16 +114,20 @@ li {
 .container-healthy{
     border: 1px solid black;
     position: absolute;
-    width: 40%;
+    width: 400px;
+    height: 100px;
     left: 50%;
-    margin-left: -20%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -50px;
 
     }
 .box-healthy{
-    background-color: #7a1c1c;
+    background-color: #958270;
     display: inline-block;
     height: 80px;
     width: 80px;
+    margin-right: 7%;
 }
 
 /* style the text boxes+ text containers for healthy*/
