@@ -130,9 +130,9 @@ li {
     margin-right: 7%;
 }
 
-/* style the text boxes+ text containers for healthy*/
-/* working now here to fix the positionning of containers*/
-.container-text{
+/* contain-text centerd horizontally and with specific positiony*/
+
+.container-links-healthy{
     border: 1px solid rgb(92, 7, 7);
     position: absolute;
     left: 0;
@@ -143,7 +143,7 @@ li {
         }
 
 
-.text-healthy{
+.links-healthy{
     
     display: inline-block;
     height: 160px;
@@ -152,7 +152,6 @@ li {
 
 .categ-healthy{
     color:#000000;
-    font-style: oblique;
-        
+    font-style:oblique;
 }
 
